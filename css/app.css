@@ -1,0 +1,112 @@
+#flyerModal .modal-body{
+	padding: 0px;
+}
+#flyerModal .modal-body img{
+	width: 100%;
+
+}
+#flyerModal .modal-body button.close{
+	position: absolute;
+	right:10px;
+	color:#fff;
+	z-index: 1000;
+}
+
+#flyerModal .modal-dialog{
+	margin: auto;
+}
+
+#flyerModal .modal-content{
+	margin-top: 30px;
+}
+
+.write-div{
+	position: absolute;
+	top: 0px;
+}
+
+.write-div p{
+	margin: 0px;
+}
+.down, .top{
+	font-weight: bolder;
+}
+
+@media screen and (min-width:991px){
+	#flyerModal .modal-dialog {
+	  max-width: 60%;
+	}
+	.write-div .down{
+		font-size: 20px;
+	}
+	.top{
+		font-size: 25px;
+	}
+  }
+  
+  @media screen and (min-width:1250px){
+	#flyerModal .modal-dialog {
+	  max-width: 50%;
+	}
+	.write-div .down{
+		font-size: 22px;
+	}
+	.top{
+		font-size: 30px;
+	}
+  }
+  @media screen and (min-width:1800px){
+	.write-div .down{
+		font-size: 32px;
+	}
+	.top{
+		font-size: 40px;
+	}
+  }
+  
+  @media screen and (max-width:990px){
+	#flyerModal .modal-dialog {
+	  max-width: 70%;
+	}
+	.write-div .down{
+		font-size: 18px;
+	}
+	.top{
+		font-size: 23px;
+	}
+  }
+  
+  @media screen and (max-width:700px){
+	.write-div .down{
+		font-size: 14px;
+	}
+	.top{
+		font-size: 20px;
+	}
+	
+  }
+  @media screen and (max-width:582px){
+	#flyerModal .modal-dialog {
+	  max-width: 80%;
+	}
+	.write-div .down{
+		font-size: 11px;
+	}
+	.top{
+		font-size: 15px;
+	}
+	
+  }
+
+  @media screen and (max-width:400px){
+	#flyerModal .modal-dialog {
+	  max-width: 80%;
+	}
+	.write-div .down{
+		font-size: 8px;
+	}
+	.top{
+		font-size: 12px;
+	}
+	
+  }
